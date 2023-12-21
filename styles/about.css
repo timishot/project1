@@ -1,0 +1,181 @@
+.hero_banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:  #14394C;
+	height: 420px;
+}
+
+.hero_text{
+	margin-left: 100px;
+}
+
+.hero_text h1, p{
+	color: #fff;
+}
+
+.hero_img{
+	margin-right: 100px;
+	display: flex;
+
+}
+
+.hero_img_text h1{
+	margin-left: 20px;
+	width: 50%;
+	color: #fff;
+}
+
+.iphone1 > div{
+	background-color: #6d1830;
+}
+
+.mock_up1_text{
+	width: 50%;
+}
+
+
+.intro_7{
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+	background-color: #14394C;
+	height: 420px;
+	width: 90%;
+	margin: 300px auto;
+	border-radius: 25px;
+}
+
+.move1 > h1, h5{
+	color: #fff;
+}
+
+.move1 h1{
+	font-family: Lora;
+	font-size: 2rem; 
+}
+
+.move1 h5{
+	font-size: 1rem;
+}
+
+.question_answer p{
+	color: #14394C;
+}
+.mock_up1{
+	margin: 100px;
+}
+
+.border{
+
+	border-bottom: 0.1rem solid #D7D1CA;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.FQ{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+
+}
+
+.FQ_Header > p, h1{
+	color: black;
+	text-align: center;
+
+}
+
+.faq_container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.faq{
+	padding: 0.4rem;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	gap: 0.5rem;
+	border-bottom: 1px solid #D7D1CA;
+	padding-bottom: 25px;
+}
+
+.faq h4 {
+	font-size: 1rem;
+	line-height: 2.2;
+}
+
+.faq_icon{
+	align-items: flex-start;
+	font-size: 1.2rem;
+}
+
+.faq p{
+	margin-top: 0.8rem;
+	margin: 0 auto;
+	display: none;
+	width: 400px;
+}
+
+.faq.open p{
+	display: block;
+}
+@media (max-width: 1240px){
+	.mock_up1_text {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1194px){
+	.hero_text{
+		margin-left: 50px;
+	}
+	.hero_img{
+		margin-right: 50px;
+	}
+	.hero_text p {
+		font-size: 16px;
+		padding-right: 100px;
+	}
+
+}
+
+@media (max-width: 1000px){
+	.intro_7{
+		width: 100%;
+		flex-direction: column-reverse;
+		height: 100%;
+		gap: 0;
+		margin: 20px auto;
+		margin-bottom: 100px;
+
+	}
+	.move1{
+		text-align: center;
+		margin: 10px;
+	}
+	.intro_phone{
+		position: relative;
+	}
+	.intro_phone img{
+		width: 100%;
+		
+	}
+}
+
+@media (max-width: 724px){
+	.hero_img {
+		display: none;
+	}
+}
+@media (max-width: 510px){
+	.mock_up1 {
+		margin: 100px 20px 100px 20px;
+	}	      
+}
